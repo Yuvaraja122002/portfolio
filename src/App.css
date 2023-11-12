@@ -128,6 +128,11 @@ Reusable CSS Classes
   margin-inline: auto;
 }
 
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
 .btn,
 .hero__link {
   color: var(--title-color);
@@ -169,4 +174,49 @@ Reusable CSS Classes
   position: absolute;
   filter: invert(1);
   opacity: 0.6;
+}
+.section {
+  padding-bottom: 220px;
+}
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+.section__title {
+  font-size: var(--h1-font-size);
+}
+.section__subtitle {
+  color: var(--primary-color);
+  font-size: var(--smaller-font-size);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.section__subtitle span {
+  font-family: var(--second-font);
+  color: var(--title-color);
+  font-size: var(--h3-font-size);
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.card {
+  background-color: var(--container-color);
+}
+.card-one {
+  padding: 30px 35px;
+  border-radius: 18px;
+}
+.link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--title-color);
+  font-weight: 700;
+}
+.link__icon {
+  color: var(--primary-color);
+  margin-left: 20px;
+  transition: all 0.3s var(--transition);
+}
+.link:hover .link__icon {
+  margin-left: 15px;
 }
