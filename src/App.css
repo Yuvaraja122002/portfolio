@@ -54,7 +54,7 @@ CSS VARIABLES
 
   /* SHADOW */
 
-  --shadow: 5px 5px (255 255 255 / 10%);
+  --shadow: 5px 5px rgb(255 255 255 / 10%);
 
   /* transition */
 
@@ -116,4 +116,57 @@ button {
 
 img {
   max-width: 100%;
+}
+
+/*------------------------------*\
+Reusable CSS Classes
+\*------------------------------*/
+
+.container {
+  max-width: 1300px;
+  padding-inline: 12px;
+  margin-inline: auto;
+}
+
+.btn,
+.hero__link {
+  color: var(--title-color);
+  font-size: var(--tiny-font-size);
+  font-weight: 700;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  border: 2px solid var(--border-color);
+  padding-inline: 40px;
+  border-radius: 56px;
+  box-shadow: var(--shadow);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background-color: var(--primary-color);
+  border-radius: inherit;
+  transform: scale(0.3);
+  filter: blur(10px);
+  opacity: 0;
+  transition: all 0.7s var(--transition);
+  z-index: -1;
+}
+
+.btn:hover::before {
+  transform: scale(1);
+  filter: blur(0);
+  opacity: 1;
+}
+.shape {
+  position: absolute;
+  filter: invert(1);
+  opacity: 0.6;
 }
