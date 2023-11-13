@@ -3,7 +3,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./components/home/home";
 import Skills from "./components/Skills/Skills";
-import Portfolio from "./components/portfolio/portfolio";
+import Portfolio from "./components/portfolio/Portfolio";
+import Resume from "./components/resume/Resume";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Skills />
       <Portfolio />
+      <Resume />
     </main>
   );
 }

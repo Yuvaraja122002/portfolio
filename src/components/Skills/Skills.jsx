@@ -5,14 +5,14 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title text-cs">Professional Skills</h2>\
+      <h2 className="section__title text-cs">Professional Skills</h2>
       <p className="section__subtitle">
         My <span>Talent</span>
       </p>
       <div className="skills__container container grid">
         {skills.map(({ name, percentage, description }, index) => {
           return (
-            <div className="skills__item">
+            <div className="skills__item" key={index}>
               <div className="skills__titles">
                 <h3 className="skills__name">{name}</h3>
                 <span className="skills__number">
