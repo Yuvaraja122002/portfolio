@@ -91,50 +91,50 @@ export const services = [
 export const skills = [
   {
     id: 1,
-    name: 'PHP',
+    name: "HTML",
     percentage: 85,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 
   {
     id: 2,
-    name: 'JavaScript',
-    percentage: 75,
+    name: "CSS",
+    percentage: 80,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 
   {
     id: 3,
-    name: 'WordPress',
-    percentage: 90,
+    name: "JavaScript",
+    percentage: 70,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 
   {
     id: 4,
-    name: 'Python',
+    name: "Bootstrap",
     percentage: 75,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 
   {
     id: 5,
-    name: 'React',
-    percentage: 70,
+    name: "React",
+    percentage: 60,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 
   {
     id: 6,
-    name: 'Adobe XD',
-    percentage: 80,
+    name: "Blender",
+    percentage: 65,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 
@@ -142,50 +142,50 @@ export const projects = [
   {
     id: 1,
     img: Project1,
-    category: 'Branding',
-    title: 'Zorro',
+    category: "Development",
+    title: "Zorro",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 2,
     img: Project2,
-    category: 'UI UX Design',
-    title: 'Gooir',
+    category: "Design",
+    title: "Gooir",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 3,
     img: Project3,
-    category: 'Development',
-    title: 'Explore',
+    category: "Art",
+    title: "Explore",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 4,
     img: Project4,
-    category: 'Photography',
-    title: 'Mozar',
+    category: "3D Blender",
+    title: "Mozar",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 5,
     img: Project5,
-    category: 'Development',
-    title: 'Stay Fit',
+    category: "Development",
+    title: "Stay Fit",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 6,
     img: Project6,
-    category: 'Branding',
-    title: 'Kana',
+    category: "Design",
+    title: "Kana",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
 ];
 
