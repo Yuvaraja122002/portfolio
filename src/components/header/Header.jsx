@@ -9,10 +9,17 @@ import { Link } from "react-scroll";
 import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 import { animateScroll } from "react-scroll";
 
+const getStorageTheme = () => {
+  let theme = "light-theme";
+  if (localStorage.getItem("theme")) {
+    theme = localStorage.getItem("theme");
+  }
+};
+
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [scrollNav, setScrollNav] = useState(false);
-  const [theme, setTheme] = useState("light-theme");
+  const [theme, setTheme] = useState(getStorageTheme());
 
   const scrollTop = () => {
     animateScroll.scrollToTop();
@@ -26,6 +33,14 @@ const Header = () => {
     }
   };
 
+  const toggleTheme = () => {
+    if (theme === "light-theme") {
+      setTheme("dark-theme");
+    } else {
+      setTheme("light-theme");
+    }
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   }, []);
@@ -33,6 +48,11 @@ const Header = () => {
   useEffect(() => {
     document.body.classList.toggle("no-scroll", showMenu);
   }, [showMenu]);
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
   return (
     <header className={`${scrollNav ? "scroll-header" : ""} header`}>
@@ -81,8 +101,8 @@ const Header = () => {
         </div>
 
         <div className="nav__btns">
-          <div className="theme__toggler">
-            <BsSun />
+          <div className="theme__toggler" onClick={toggleTheme}>
+            {theme === "light-theme" ? <BsMoon /> : <BsSun />}
           </div>
 
           <div

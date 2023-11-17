@@ -5,6 +5,7 @@ import shapeTwo from "../../assets/shape-2.png";
 
 import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./home.css";
+import CV from "../../assets/CV-YUVARAJA.pdf";
 
 const Home = () => {
   return (
@@ -70,7 +71,7 @@ const Home = () => {
           </div>
 
           <div className="home__btns">
-            <a href="" className="btn text-cs">
+            <a download="" href={CV} className="btn text-cs">
               Download CV
             </a>
 
