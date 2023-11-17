@@ -16,10 +16,10 @@ export const links = [
     name: 'Home',
     path: 'home',
   },
-  {
-    name: 'Services',
-    path: 'services',
-  },
+  // {
+  //   name: 'Services',
+  //   path: 'services',
+  // },
   {
     name: 'Skills',
     path: 'skills',
@@ -32,18 +32,18 @@ export const links = [
     name: 'Resume',
     path: 'resume',
   },
-  {
-    name: 'Testimonials',
-    path: 'testimonial',
-  },
-  {
-    name: 'Pricing',
-    path: 'pricing',
-  },
-  {
-    name: 'Blog',
-    path: 'blog',
-  },
+  // {
+  //   name: 'Testimonials',
+  //   path: 'testimonial',
+  // },
+  // {
+  //   name: 'Pricing',
+  //   path: 'pricing',
+  // },
+  // {
+  //   name: 'Blog',
+  //   path: 'blog',
+  // },
   {
     name: 'Contact',
     path: 'contact',
