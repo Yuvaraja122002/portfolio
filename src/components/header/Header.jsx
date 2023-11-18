@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import { Link } from "react-scroll";
 import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
 import { animateScroll } from "react-scroll";
+import shapeOne from "../../assets/shape-1.png";
 
 const getStorageTheme = () => {
   let theme = "light-theme";
@@ -97,6 +98,10 @@ const Header = () => {
                 <FaInstagram />
               </a>
             </div>
+          </div>
+
+          <div className="section__deco deco__left header__deco">
+            <img src={shapeOne} alt="" className="shape" />
           </div>
         </div>
 
