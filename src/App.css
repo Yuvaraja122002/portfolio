@@ -169,7 +169,7 @@ Reusable CSS Classes
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1250px;
   padding-inline: 12px !important;
   margin-inline: auto;
 }
@@ -271,6 +271,7 @@ Reusable CSS Classes
   align-items: center;
   color: var(--title-color);
   font-weight: 700;
+  cursor: pointer;
 }
 .link__icon {
   color: var(--primary-color);

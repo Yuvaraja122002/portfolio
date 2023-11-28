@@ -59,7 +59,7 @@ const Resume = () => {
       </div>
 
       <div className="section__bg-wrapper">
-        <span className="bg__title">Resume</span>
+        {/* <span className="bg__title">Resume</span> */}
       </div>
     </section>
   );

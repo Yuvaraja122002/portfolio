@@ -51,9 +51,9 @@ const Home = () => {
           </div>
 
           <p className="home__text">
-            From Chennai, I have good experience in web developer, also I am
-            good at 3d modeling and illustrator. I love to talk with you about
-            our unique
+            From Chennai, Enthusiastic individual with a strong passion for
+            front-end development and creative arts. Proficient in 3D modeling
+            using Blender, illustration, and pencil portrait drawing.
           </p>
 
           <div className="home__socials">

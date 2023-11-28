@@ -39,7 +39,7 @@
   margin-left: 10px;
 }
 .home__title {
-  /* color: #fff; */
+  color: #fff;
   font-size: var(--biggest-font-size);
   text-shadow: 2px 2px hsl(0, 0%, 0%), -2px -2px hsl(0, 0%, 0%),
     2px -2px hsl(0, 0%, 0%), -2px -2px hsl(0, 0%, 0%),
@@ -49,7 +49,7 @@
 }
 .home__text {
   font-size: var(--larger-font-size);
-  margin-block: 40px 28px;
+  margin-block: 20px 28px;
   max-width: 520px;
 }
 .home__socials {

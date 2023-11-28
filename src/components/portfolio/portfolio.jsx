@@ -47,7 +47,7 @@ const Portfolio = () => {
       </div>
 
       <div className="section__bg-wrapper">
-        <span className="bg__title">Portfolio</span>
+        {/* <span className="bg__title">Portfolio</span> */}
       </div>
     </section>
   );

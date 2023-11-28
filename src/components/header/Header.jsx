@@ -15,6 +15,7 @@ const getStorageTheme = () => {
   if (localStorage.getItem("theme")) {
     theme = localStorage.getItem("theme");
   }
+  return "light-theme"; // Return the theme retrieved from local storage, if need dark theme comment this line
 };
 
 const Header = () => {
