@@ -148,18 +148,29 @@ export const projects = [
   {
     id: 5,
     img: Project2,
-    category: "Design",
-    title: "Gooir",
+    category: "Development",
+    title: "Calculator",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "The Responsive Calculator Web Page project showcases my proficiency in HTML, CSS, and JavaScript to create a dynamic and user-friendly calculator application. This project was developed as part of an exploration into front-end web development and responsive design.",
+    weblink: "https://yuvaraja122002.github.io/Calculator/",
   },
   {
     id: 3,
     img: Project3,
-    category: "Art",
-    title: "Explore",
+    category: "Development",
+    title: "Eb-calculator",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "This responsive web app, utilizing HTML, CSS, and JavaScript, calculates electricity bills based on usage tiers, presenting a transparent breakdown of charges. Its user-friendly design ensures a seamless experience on various devices.",
+    weblink: "https://yuvaraja122002.github.io/Eb-calculator/",
+  },
+  {
+    id: 8,
+    img: Project3,
+    category: "Development",
+    title: "Celcius-to-fahrenheit",
+    description:
+      "A sleek Celsius-to-Fahrenheit converter for my portfolio, crafted with HTML, CSS, and JavaScript. Allows seamless temperature conversions with a user-friendly interface.",
+    weblink: "https://yuvaraja122002.github.io/Celcius-to-fahrenheit/",
   },
   {
     id: 4,
@@ -182,6 +193,14 @@ export const projects = [
     id: 6,
     img: Project6,
     category: "Design",
+    title: "Kana",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+  },
+  {
+    id: 7,
+    img: Project6,
+    category: "Art",
     title: "Kana",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
