@@ -95,7 +95,7 @@ const Header = () => {
               </a>
 
               <a
-                href="www.linkedin.com/in/yuvaraja12"
+                href="https://www.linkedin.com/in/yuvaraja12/"
                 className="header__social-link"
               >
                 <FaLinkedin />

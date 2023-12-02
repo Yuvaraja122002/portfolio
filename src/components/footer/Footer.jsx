@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="www.linkedin.com/in/yuvaraja12"
+            href="https://www.linkedin.com/in/yuvaraja12/"
             className="footer__social-link"
           >
             <FaLinkedin />
