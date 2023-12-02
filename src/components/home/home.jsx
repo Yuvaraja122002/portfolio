@@ -3,7 +3,7 @@ import profileImg from "../../assets/profile-img.png";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
-import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./home.css";
 import CV from "../../assets/CV-YUVARAJA.pdf";
 
@@ -57,15 +57,24 @@ const Home = () => {
           </p>
 
           <div className="home__socials">
-            <a href="" className="home__social-link">
-              <FaTwitter />
+            <a
+              href="https://github.com/Yuvaraja122002"
+              className="home__social-link"
+            >
+              <FaGithub />
             </a>
 
-            <a href="" className="home__social-link">
+            <a
+              href="www.linkedin.com/in/yuvaraja12"
+              className="home__social-link"
+            >
               <FaLinkedin />
             </a>
 
-            <a href="" className="home__social-link">
+            <a
+              href="https://www.instagram.com/_uv_uv_arts/"
+              className="home__social-link"
+            >
               <FaInstagram />
             </a>
           </div>

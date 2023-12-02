@@ -1,6 +1,6 @@
 import React from "react";
 import { links } from "../../Data";
-import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsSun, BsMoon } from "react-icons/bs";
 import "./header.css";
 import { useState } from "react";
@@ -87,15 +87,24 @@ const Header = () => {
             </ul>
 
             <div className="header__socials">
-              <a href="" className="header__social-link">
-                <FaTwitter />
+              <a
+                href="https://github.com/Yuvaraja122002"
+                className="header__social-link"
+              >
+                <FaGithub />
               </a>
 
-              <a href="" className="header__social-link">
+              <a
+                href="www.linkedin.com/in/yuvaraja12"
+                className="header__social-link"
+              >
                 <FaLinkedin />
               </a>
 
-              <a href="" className="header__social-link">
+              <a
+                href="https://www.instagram.com/_uv_uv_arts/"
+                className="header__social-link"
+              >
                 <FaInstagram />
               </a>
             </div>
