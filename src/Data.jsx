@@ -1,9 +1,10 @@
 import Project1 from "./assets/project1.jpg";
-import Project2 from "./assets/project2.jpeg";
-import Project3 from "./assets/project3.jpeg";
-import Project4 from "./assets/project4.jpeg";
+import Project2 from "./assets/project2.jpg";
+import Project3 from "./assets/project3.PNG";
+import Project4 from "./assets/project4.PNG";
 import Project5 from "./assets/project5.jpg";
-import Project6 from "./assets/project6.jpg";
+import Project6 from "./assets/project6.PNG";
+import Project7 from "./assets/project7.jpg";
 
 import Testimonial1 from "./assets/testimonial1.jpg";
 import Testimonial2 from "./assets/testimonial2.jpg";
@@ -146,7 +147,46 @@ export const projects = [
     weblink: "https://yuvaraja122002.github.io/Uv_Arts_/",
   },
   {
+    id: 2,
+    img: Project6,
+    category: "3D Blender",
+    title: "Coffe Shop",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    weblink:
+      "https://www.instagram.com/p/Cta4KEXJhML/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
+    id: 3,
+    img: Project4,
+    category: "Design",
+    title: "Coca Cola",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    weblink:
+      "https://www.instagram.com/p/CqNgO_cJ4tr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
+    id: 4,
+    img: Project6,
+    category: "3D Blender",
+    title: "Burger",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    weblink:
+      "https://www.instagram.com/p/CtOM324O-Qd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
     id: 5,
+    img: Project7,
+    category: "Art",
+    title: "POTRAIT",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    weblink: "https://www.instagram.com/_uv_uv_arts/",
+  },
+  {
+    id: 6,
     img: Project2,
     category: "Development",
     title: "Calculator",
@@ -155,16 +195,7 @@ export const projects = [
     weblink: "https://yuvaraja122002.github.io/Calculator/",
   },
   {
-    id: 3,
-    img: Project3,
-    category: "Development",
-    title: "Eb-calculator",
-    description:
-      "This responsive web app, utilizing HTML, CSS, and JavaScript, calculates electricity bills based on usage tiers, presenting a transparent breakdown of charges. Its user-friendly design ensures a seamless experience on various devices.",
-    weblink: "https://yuvaraja122002.github.io/Eb-calculator/",
-  },
-  {
-    id: 8,
+    id: 7,
     img: Project3,
     category: "Development",
     title: "Celcius-to-fahrenheit",
@@ -173,15 +204,26 @@ export const projects = [
     weblink: "https://yuvaraja122002.github.io/Celcius-to-fahrenheit/",
   },
   {
-    id: 4,
+    id: 8,
     img: Project4,
-    category: "3D Blender",
-    title: "Mozar",
+    category: "Design",
+    title: "Cactus",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    weblink:
+      "https://www.instagram.com/p/CqSv5GzpnP-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
-    id: 2,
+    id: 9,
+    img: Project2,
+    category: "Development",
+    title: "Eb-calculator",
+    description:
+      "This responsive web app, utilizing HTML, CSS, and JavaScript, calculates electricity bills based on usage tiers, presenting a transparent breakdown of charges. Its user-friendly design ensures a seamless experience on various devices.",
+    weblink: "https://yuvaraja122002.github.io/Eb-calculator/",
+  },
+  {
+    id: 10,
     img: Project5,
     category: "Development",
     title: "ASUS Laptop Landing Page",
@@ -190,20 +232,24 @@ export const projects = [
     weblink: "https://yuvaraja122002.github.io/Asus/",
   },
   {
-    id: 6,
-    img: Project6,
+    id: 11,
+    img: Project4,
     category: "Design",
-    title: "Kana",
+    title: "Donut",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    weblink:
+      "https://www.instagram.com/p/CqKkRa8ucpW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
-    id: 7,
+    id: 12,
     img: Project6,
-    category: "Art",
-    title: "Kana",
+    category: "3D Blender",
+    title: "Coffe with Cookies",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    weblink:
+      "https://www.instagram.com/p/C1M158KvCZw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
 ];
 
